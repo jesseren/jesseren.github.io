@@ -1,0 +1,160 @@
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: rgba(255, 255, 255, 0.979);
+    background-position: center;
+    padding: 0px 0px 0px 0px;
+    text-align: left;
+    margin:19px 0px 0px 0px;
+    width: 100%;
+    opacity: 0;
+    display: flex;
+}
+
+header p{
+    font-family: kazimir, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    padding: 80px 0px 20px 20px;
+    margin: 0px;
+    width: 50%;
+}
+
+header img{
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    width: 50%;
+}
+
+nav{
+    background-color: rgb(255, 237, 155);
+    padding:15px 20px 15px 5px;
+    position: fixed;
+    top:0px;
+    width: 100%
+}
+nav ul {
+    list-style-type: none;
+    padding: 0px 0px 0px 20px;
+    margin: 0px;
+}
+
+nav li {
+    display: inline;
+    padding-right: 40px;
+    font-family: Helvetica;
+    float: right;
+}
+
+#FirstNav{
+    float:left;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: black;
+}
+
+a:hover {
+    opacity: 0.5;
+    text-decoration: underline;
+}
+
+.About{
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+}
+
+.About .text{
+    float:right;
+    width:50%;
+}
+
+.About h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    padding: 0px;
+    margin: 50px 0px 0px 0px;
+}
+
+.About p{
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.Projects{
+    padding:0px 0px 0px 20px;
+    margin:50px 0px 0px 0px;
+}
+
+.Projects h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    padding: 0px;
+    margin: 50px 0px 0px 0px;
+    text-align: center;
+}
+
+.Projects .videos{
+    margin-left: 100px;
+}
+.Projects .one{
+    width:50%;
+    float: left;
+}
+
+.Projects .two{
+    width:50%;
+    float: right;
+}
+
+.Projects h2{
+    text-align: left;
+}
+
+iframe{
+    width:80%;
+    height: 300px;
+}
+
+footer{
+    background-color: rgb(255, 237, 155);
+    padding:15px 20px 15px 25px;
+}
+
+footer ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer li{
+    display: inline;
+    padding-right: 40px;
+    font-family: Helvetica;
+}
+
+.Buffer{
+    height: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
