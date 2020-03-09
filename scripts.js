@@ -1,6 +1,5 @@
-document.getElementsByTagName("header")[0].style.height = screen.height - 170 + "px";
-document.getElementsByClassName("About")[0].style.height = screen.height - 170 + "px";
-document.getElementsByClassName("Projects")[0].style.height = screen.height -170 + "px";
+document.getElementsByTagName("header")[0].style.height = screen.height - 120 + "px";
+document.getElementsByClassName("About")[0].style.height = screen.height - 120 + "px";
 
 var elem = document.getElementsByTagName("header")[0];
 var opa = 0;
