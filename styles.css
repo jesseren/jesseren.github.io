@@ -10,7 +10,8 @@ header{
     margin:19px 0px 0px 0px;
     width: 100%;
     opacity: 0;
-    
+    display: flex;
+    box-sizing: border-box;
 }
 
 header p{
@@ -21,14 +22,13 @@ header p{
     padding: 80px 0px 20px 20px;
     margin: 0px;
     width: 50%;
-    float:left;
+    box-sizing: border-box;
 }
 
 header img{
     padding: 0px 0px 0px 0px;
     margin: 0px;
     width: 50%;
-    float:right;
 }
 
 nav{
@@ -36,8 +36,10 @@ nav{
     padding:15px 20px 15px 5px;
     position: fixed;
     top:0px;
-    width: 100%
+    width: 100%;
+    box-sizing: border-box;
 }
+
 nav ul {
     list-style-type: none;
     padding: 0px 0px 0px 20px;
@@ -49,6 +51,7 @@ nav li {
     padding-right: 40px;
     font-family: Helvetica;
     float: right;
+    box-sizing: border-box;
 }
 
 #FirstNav{
@@ -72,6 +75,7 @@ a:hover {
     margin: 0px;
     padding: 0px 0px 0px 20px;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .About .text{
@@ -90,7 +94,7 @@ a:hover {
 
 .About img{
     padding: 0px 0px 0px 0px;
-    margin: 0px;
+    margin: 50px 0px 0px 0px;
     width: 50%;
     float:left
 }
