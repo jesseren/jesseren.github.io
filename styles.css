@@ -67,12 +67,9 @@ html{
         display: block;
         text-align: left;
     }
-    
-    /* Show the dropdown menu on hover */
-    .dropdown:hover .dropdown-content {
-        display: block;
-    }
 }
+
+.show {display:block;}
 
 @media screen and (min-width: 651px) {
     nav{
