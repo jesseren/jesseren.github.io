@@ -10,7 +10,7 @@ header{
     margin:19px 0px 0px 0px;
     width: 100%;
     opacity: 0;
-    display: flex;
+    
 }
 
 header p{
@@ -21,12 +21,14 @@ header p{
     padding: 80px 0px 20px 20px;
     margin: 0px;
     width: 50%;
+    float:left;
 }
 
 header img{
     padding: 0px 0px 0px 0px;
     margin: 0px;
     width: 50%;
+    float:right;
 }
 
 nav{
