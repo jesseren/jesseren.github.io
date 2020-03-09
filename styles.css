@@ -71,6 +71,7 @@ a:hover {
 .About{
     margin: 0px;
     padding: 0px 0px 0px 20px;
+    display: flex;
 }
 
 .About .text{
@@ -91,7 +92,7 @@ a:hover {
     padding: 0px 0px 0px 0px;
     margin: 0px;
     width: 50%;
-    float:left;
+    float:left
 }
 
 .About p{
