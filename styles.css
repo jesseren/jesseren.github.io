@@ -87,6 +87,13 @@ a:hover {
     margin: 50px 0px 0px 0px;
 }
 
+.About img{
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    width: 50%;
+    float:left;
+}
+
 .About p{
     font-family: itc-avant-garde-gothic-pro, sans-serif;
     font-style: normal;
