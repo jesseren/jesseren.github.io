@@ -150,7 +150,7 @@ header img{
     width: 50%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     header{
         display: inline;
     }
@@ -182,7 +182,7 @@ header img{
 
 .About .text{
     width:50%;
-    margin: 80px 100px 0 0px;
+    margin: 50px 100px 0 0px;
     box-sizing: border-box;
 }
 
@@ -200,7 +200,7 @@ header img{
 }
 
 .About img{
-    padding: 0px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
     margin: 0px 50px 0px 0px;
     width: 50%;
     height: 100%;
