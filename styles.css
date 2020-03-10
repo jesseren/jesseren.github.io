@@ -365,11 +365,11 @@ footer li{
 
 .Buffer{
     height: 30px;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 body{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
