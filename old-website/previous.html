@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jesse Ren</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <body>
+        <nav>
+            <ul>
+                <li id = "FirstNav"><a href="#Header"><strong>Jesse Ren</b></strong></li>
+                <li><a href = "#Contact">Contact</a></li>
+                <li><a href = "https://github.com/jesseren" target="_blank">GitHub</a></li>
+                <li><a  href ="Resume v.2 W2020.pdf" target="_blank">Resume</a></li>
+                <li><a href = "#Projects">Projects</a></li>
+                <li><a href = "#About">About</a></li>
+            </ul>
+        </nav>
+        <div class="navbar">
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Menu</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#Header"><strong>Jesse Ren</strong></a>
+                    <a href = "#About">About</a>
+                    <a href = "#Projects">Projects</a>
+                    <a  href ="Resume v.2 W2020.pdf" target="_blank">Resume</a>
+                    <a href = "https://github.com/jesseren" target="_blank">GitHub</a>
+                    <a href = "#Contact">Contact</a>
+                </div>
+            </div>
+        </div>
+        <a name = "Header"></a>
+        <div class = "Buffer"></div>    
+        <header>
+            <p>Hello, my name is Jesse Ren and I'm an engineering student at the University of Waterloo.</p>
+            <img src = "me1.jpg" alt = "my picture">
+        </header>
+        <a name = "About"></a>
+        <section class = "About">
+            <img src = "me2.JPG" alt = "softball picture">
+            <section class = "text">
+                <h1><b>ABOUT<br>ME</b></h1>
+                <p>
+                    I am currently enrolled in my 2nd year of Environmental Engineering at the University of Waterloo. 
+                    While I am concerned about environmental issues and sustainability, I also have
+                    a passion for software development and find coding to be an enjoyable application of the engineering
+                    problem-solving skills I've obtained in university. On my free time I enjoy learning new development 
+                    tools, playing softball and listening to Bangtan Sonyeondan. <br><br>Feel free to 
+                    <a href = "mailto:jesse.ren@uwaterloo.ca" target="_top"><u>reach out</u></a> if you'd like to talk or 
+                    get to know me better!
+                </p>
+            </section>
+        </section>
+        <a name = "Projects"></a>
+        <section class = "Projects">
+            <h1><b>My Projects</b></h1>
+            <div class = "videos">
+                <div class = "one">
+                    <h2>Java Space Invaders</h2>
+                    <iframe type="text/html" width="560" height="315" src="https://www.youtube.com/embed/ZdFEAYNoAao" frameborder="0" allowfullscreen></iframe>
+                    <p>
+                        A game I programmed in Java based off of the classic arcade game Space Invaders. The goal is to 
+                        score as many points as possible by defeating enemy aliens while at the same time avoiding death
+                        by dodging enemies and bullets. <br><br>
+                        <u><a href = "https://github.com/jesseren/SpaceInvaders" target="_blank">See in GitHub</a></u>
+                    </p>
+                </div>
+                <div class = "two">
+                    <h2>Java Bullet Hell</h2>
+                    <iframe type="text/html" width="560" height="315" src="https://www.youtube.com/embed/OuRG9jukNe4" frameborder="0" allowfullscreen></iframe>
+                    <p>
+                        A simple bullet hell game that I programmed using Java. The goal is to dodge enemy
+                        projectiles for as long as possible, as the longer you survive, the higher your final
+                        score. I was inspired to create this game after playing the hit indie game Undertale.
+                        <br><br> <u><a href = "https://github.com/jesseren/BulletHell" target="_blank">See in GitHub</a></u>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <a name = "Contact"></a>
+        <footer>
+            <ul>
+                <li>Email: <a href="mailto:jesse.ren@uwaterloo.ca" target="_top"><u>jesse.ren@uwaterloo.ca</u></a></li>
+                <li>Phone: (647)868-3423</li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/jesse-ren/" target="_blank"><u>linkedin.com/in/jesse-ren</u></a></li>
+            </ul>
+        </footer>
+            <script src ="scripts.js"></script>
+    </body>
+</html>
